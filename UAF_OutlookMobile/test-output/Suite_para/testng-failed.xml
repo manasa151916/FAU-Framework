@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite_para]" parallel="tests">
+  <parameter name="Locality" value="Hub"/>
+  <parameter name="appType" value="Web"/>
+  <parameter name="ExecutionType" value="Parallel"/>
+  <parameter name="testname1" value="Test_Google"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="testname" value="Test_Google-Run3"/>
+  <parameter name="toolName" value="Selenium"/>
+  <test name="Test_Google-Run1(failed)" parallel="tests">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="Test_Google"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="Test_Google-Run1"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_Google">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="GoogleMultilingual_PC"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_Google -->
+    </classes>
+  </test> <!-- Test_Google-Run1(failed) -->
+  <test name="Test_Google-Run2(failed)" parallel="tests">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="Test_Google"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="Test_Google-Run2"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_Google">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="GoogleMultilingual_PC"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_Google -->
+    </classes>
+  </test> <!-- Test_Google-Run2(failed) -->
+  <test name="Test_Google-Run3(failed)" parallel="tests">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="Test_Google"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="Test_Google-Run3"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_Google">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+          <include name="GoogleMultilingual_PC"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_Google -->
+    </classes>
+  </test> <!-- Test_Google-Run3(failed) -->
+</suite> <!-- Failed suite [Suite_para] -->

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mop.qa.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 252.381 sec - in com.mop.qa.testrunner.TestRunner

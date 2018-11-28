@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite_para1]" parallel="tests">
+  <parameter name="Locality" value="Hub"/>
+  <parameter name="appType" value="Web"/>
+  <parameter name="ExecutionType" value="Parallel"/>
+  <parameter name="testname1" value="Test_CNN_PC"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="testname" value="Test_CNN_PC-Run2"/>
+  <parameter name="toolName" value="Selenium"/>
+  <test name="Test_CNN_PC-Run1(failed)" parallel="tests">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="Test_CNN_PC"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="Test_CNN_PC-Run1"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_CNN_PC">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="VideoAuto_PC"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_CNN_PC -->
+    </classes>
+  </test> <!-- Test_CNN_PC-Run1(failed) -->
+  <test name="Test_CNN_PC-Run2(failed)" parallel="tests">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="Test_CNN_PC"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="testname" value="Test_CNN_PC-Run2"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_CNN_PC">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="VideoAuto_PC"/>
+          <include name="startTestReport"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_CNN_PC -->
+    </classes>
+  </test> <!-- Test_CNN_PC-Run2(failed) -->
+</suite> <!-- Failed suite [Suite_para1] -->
